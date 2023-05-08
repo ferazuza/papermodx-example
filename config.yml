@@ -1,5 +1,5 @@
-title: PaperModX Example Site
-baseURL: "https://reorx.github.io/papermodx-example/"
+title: Barcelona Public Transport Guide
+baseURL: "https://barcelonapublictransport.com"
 theme: ["hugo-notice", "PaperModX"]
 
 enableRobotsTXT: true
@@ -52,7 +52,7 @@ params:
       username: novoreorx
 
   homeInfoParams:
-    Title: "PaperModX"
+    Title: "Barcelona Public Transport Guide"
     Content: |
       Welcome to demo of hugo's theme PaperModX.
 
@@ -88,21 +88,24 @@ outputFormats:
 
 menu:
   main:
-    - name: Posts
-      url: /posts/
+    - name: Home
+      url: /
       weight: 1
     - name: Basics
       url: /basics/
       weight: 2
-    - name: Notes
-      url: /notes/
+    - name: Tickets and fares
+      url: /tickets-and-fares/
       weight: 3
-    - name: Newsletter
-      url: /newsletter/
+    - name: Maps
+      url: /maps/
       weight: 4
-    - name: Archives
-      url: /archives/
+    - name: Blog
+      url: /blog/
       weight: 5
+    - name: About
+      url: /about/
+      weight: 6
 
 languages:
   en:
